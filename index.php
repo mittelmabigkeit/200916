@@ -7,6 +7,10 @@ echo "</br>";
 $arr=array("one"=>"1","two"=>"2","three"=>"3");
 $stroka=serialize($arr);
 echo $arr;
+$arr="text";
+echo count ($arr);
+$arr=unserialize($stroka);
+echo count ($arr);
 echo "</br>";
 
 function func() {
